@@ -1,5 +1,5 @@
 class Solution:
-  def generateParenthesis(self, n):
+  def generateParenthesis(self, n: int):
     ans = []
 
     def dfs(l: int, r: int, s: str) -> None:
